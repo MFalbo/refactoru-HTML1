@@ -1,21 +1,10 @@
-/*
-	Put your custom CSS here
-*/
-/*.portfolio-item{
-	transform-style: preserve-3d;
-	
-	-webkit-backface-visibility: hidden;
-}*/
 .primary{
-	transition: -webkit-transform .5s linear 0s;
 	position: relative;
-	/*z-index: 2;*/
-	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform .5s linear 0s;
 }
 
 .portfolio-item:hover .primary{
 	-webkit-transform: rotateY(180deg);
-	-webkit-backface-visibility: hidden;
 }
 
 .secondary{
@@ -28,5 +17,4 @@
 
 .portfolio-item:hover .secondary{
 	-webkit-transform: rotateY(0deg);
-	-webkit-backface-visibility: hidden;
 }
